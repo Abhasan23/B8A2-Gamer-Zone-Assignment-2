@@ -5,3 +5,50 @@
   *{
     font-family: 'Work Sans', sans-serif;
   }
+header{
+    /* padding: 37px 240px; */
+}
+
+  .nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo-container{
+    display: flex;
+    align-items: center;
+    width: 50px;
+  }
+  .logo-container h1{
+    font-size: 45px;
+  }
+
+  .logo-container img{
+    height: 40px;
+     margin-right: 20px;
+  }
+  .nav-item-container a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #3C354F;;
+  }
+
+  .nav-item-container{
+    color:#3C354F;
+    font-size: 18px;
+    font-weight: 500px;
+    text-align: center;
+    
+  }
+
+.fllow-us{
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+.logo-text-color{
+    color:#FF42A5;
+
+}
+/* this is header style  */
+
