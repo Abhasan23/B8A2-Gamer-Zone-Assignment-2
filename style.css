@@ -55,12 +55,6 @@
     padding: 10px 30px;
 }
 
-span{
-  color: red;
-  padding: 10px;
-}
-
-
 .logo-text-color{
     color:#FF42A5;
 
@@ -79,8 +73,8 @@ span{
   }
 
 .banner-text h2{
-    color: #0B0223;
-    font-size: 48px;
+  
+   font-size: 48px;
     font-weight: 600;
 
 }
@@ -220,9 +214,12 @@ font-weight: 400;
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  padding: 100px 240px;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 200px;
   justify-content: center;
-  gap:15px;
+  gap:10px;
+  font-size: 14px;
 }
   
 
@@ -234,7 +231,7 @@ font-weight: 400;
   align-items: center;
   background-color: white;
   border-radius: 20px;
-  font-size: 16px
+  
 }
 
 .icon-box img{
@@ -258,5 +255,60 @@ font-weight: 400;
   color: #F948B2;
   font-weight: bold;
 }
+ /* This is icon section  */
+
+ .footer-container{
+  margin-top: 20px;
+  background-color: #0B0223;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+ }
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img{
+  height: 40px;
+ 
+}
+
+.footer-logo h1{
+  color: white;
+}
+.site-link a{
+  color:rgba(255, 255, 255, 0.60);
+  text-decoration: none;
+padding: 25px;
+}
+
+.social-icon{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-bottom: 20px;
+  margin: 0px auto;
+}
 
 
+
+
+.privaci-link a{
+  color:rgba(255, 255, 255, 0.60);
+  text-decoration: none;
+padding: 25px;
+}
+
+
+
+.copyright p{
+  color: rgba(255, 255, 255, 0.60);
+}
+
+/* moblie responsive  */
+
+  
+  
