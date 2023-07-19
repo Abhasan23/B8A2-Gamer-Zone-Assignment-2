@@ -127,6 +127,8 @@ span{
     align-content: center;
     padding-right: 240px;
     padding-left: 110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
    
   
 }
@@ -154,10 +156,58 @@ font-style: normal;
 font-weight: 400;
   
 }
+/* this ia gamer  */
 
+.online-games-text{
 
+  width: 500px;
+  text-align: center;
+  align-content: center;
+  margin: 0px auto;
+}
 
+.online-games-img{
+  display: flex;
+  justify-content:space-around;
+  padding-right: 240px;
+  padding-left: 110px;
   
+  
+}
 
+.online-games-img img{
+   width: 240px; 
+   min-height: 150px;
+   margin-right: 15px;
+}
 
+.online-games-text h1{
+  color: #0B0223;;
 
+}
+
+.funny-video{
+  color: #F948B2;
+}
+  /* this is online game  */
+  
+.online-play-games{
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 240px;
+  padding-left: 110px;
+}
+
+.oline-games01{
+  width: 300px;
+  height: 300px;
+}
+
+.oline-games02{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  right: 100px;
+  top: 50px;
+}
