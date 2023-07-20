@@ -1,0 +1,125 @@
+@media screen and (max-width:576px) {
+
+    .nav-container{ 
+      flex-direction: column;
+      padding-right: 0 ;
+    }
+    .nav-item-container{ 
+        flex-direction: column;
+        padding: 0;
+      }
+      .nav-item-container a{
+          margin-top: 20px;
+        }
+      .fllow-us{
+        width:280px;
+       padding-top: 20px;
+       padding-bottom: 20px;
+      }
+     /* nav-container responsive end  */
+
+      .banner-container{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 120px;
+        
+      }
+
+      .banner-text, .banner-img{
+        width: 300px;
+        margin-bottom: 20px;
+        
+      }
+      .banner-text{
+        margin-left: 30px;
+      }
+
+      .banner-text h1{
+        font-size: 50px;
+        font-weight: 400;
+      }
+
+      .banner-text h2{
+        font-size: 30px;
+      }
+       /* banner responsive end  */
+
+      .gamer{
+        flex-direction: column;
+
+        padding-left: 50px;
+        padding-right: 0;
+
+      }
+      .gamer-text, .gamer-text p {
+        text-align: center;
+      }
+       /* gamer section responsive end  */
+
+      .online-games-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 150px;
+        padding-right: 0;
+        text-align: center;
+      }
+      /* online games section responsive end  */
+
+      .online-play-games{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding-left: 110px;
+        padding-right: 0;
+      }
+
+      .oline-games02 {
+      left: 209px;
+    top: -114px;
+    text-align: center;
+      }
+      
+     
+      .online-play-games-text{
+        text-align: center;
+      }
+/* online play games section responsive end  */
+
+      .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        
+      }
+
+      .icon-box{
+        width: 150px;
+      }
+      /* games icon section responsive end  */
+
+      .social-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-bottom: 30px;
+        }
+        .site-link {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          padding-top: 50px;
+        }
+
+        .privaci-link {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         padding-top: 50px;
+
+        }
+
+        
+        }
+
+    
+  
+
+  
+  
